@@ -1,0 +1,14 @@
+{
+  "name": "uafwebsite_new",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://sheena.hackdiva.github.io/uafwebsite_new",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
+  }
+}
